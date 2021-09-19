@@ -23,6 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  font_awesome_flutter: ^9.1.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -35,8 +36,10 @@ dev_dependencies:
   flutter_native_splash: ^1.2.3
 
 flutter_native_splash:
-  color: "#141f23"
+  color: "#94d631"
+  color_dark: "#141f23"
   image: assets/img/logo.png
+  image_dark: assets/img/greenlogo.png
   android: true
   ios: true
 
@@ -50,6 +53,30 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/img/logo.png
+    - assets/img/dzmap.png
+    - assets/img/kabyle.png
+    - assets/img/mzabi.png
+    - assets/img/chaoui.png
+    - assets/img/greenlogo.png
+    - assets/img/interpreter.png
+    - assets/img/refugee.png
+    - assets/img/ad1.jpg
+    - assets/img/ad2.jpg
+    - assets/img/prefs.png
+    - assets/img/phone-call.png
+    - assets/img/video-call.png
+    - assets/flags/afghn.png
+    - assets/flags/albn.png
+    - assets/flags/algr.png
+    - assets/flags/andr.png
+    - assets/flags/angl.png
+    - assets/flags/antg.png
+    - assets/flags/argnt.png
+    - assets/flags/uk.png
+    - assets/flags/fr.png
 
   fonts:
     - family: Cairo
